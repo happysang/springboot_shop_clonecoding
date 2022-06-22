@@ -8,6 +8,9 @@ import lombok.ToString;
 import javax.persistence.*;
 import java.time.LocalDateTime;
 
+
+@Entity
+@Table(name = "item")
 @Getter
 @Setter
 @ToString
