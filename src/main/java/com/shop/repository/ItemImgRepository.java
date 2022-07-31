@@ -3,4 +3,8 @@ package com.shop.repository;
 import com.shop.Entity.ItemImg;
 import org.springframework.data.jpa.repository.JpaRepository;
 
-public interface ItemImgRepository extends JpaRepository<ItemImg, Long> {}
+import java.util.List;
+
+public interface ItemImgRepository extends JpaRepository<ItemImg, Long> {
+    List<ItemImg> findByItemIdOrderByIdAsc(Long itemId);
+}
