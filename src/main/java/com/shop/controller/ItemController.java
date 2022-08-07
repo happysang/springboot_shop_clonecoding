@@ -96,7 +96,7 @@ public class ItemController {
         model.addAttribute("items", items);
         model.addAttribute("itemSearchDto", itemSearchDto);
         model.addAttribute("maxPage", 5);
-        return "item/itemMng";
+        return "item/itemImg";
     }
 
     @GetMapping(value = "/item/{itemId}")
