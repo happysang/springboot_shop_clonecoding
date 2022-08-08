@@ -1,6 +1,6 @@
 package com.shop.controller;
 
-import com.shop.Entity.Member;
+import com.shop.entity.Member;
 import com.shop.dto.MemberFormDto;
 import com.shop.service.MemberService;
 import org.junit.jupiter.api.DisplayName;

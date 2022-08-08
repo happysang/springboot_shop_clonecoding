@@ -1,4 +1,4 @@
-package com.shop.Entity;
+package com.shop.entity;
 
 import com.shop.constant.Role;
 import com.shop.dto.MemberFormDto;

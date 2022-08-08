@@ -1,7 +1,7 @@
 package com.shop.service;
 
 import com.shop.dto.OrderDto;
-import com.shop.Entity.*;
+import com.shop.entity.*;
 import com.shop.repository.ItemRepository;
 import com.shop.repository.MemberRepository;
 import com.shop.repository.OrderRepository;

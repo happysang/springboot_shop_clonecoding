@@ -1,6 +1,6 @@
 package com.shop.repository;
 
-import com.shop.Entity.Item;
+import com.shop.entity.Item;
 import com.shop.dto.ItemSearchDto;
 import com.shop.dto.MainItemDto;
 import org.springframework.data.domain.Page;

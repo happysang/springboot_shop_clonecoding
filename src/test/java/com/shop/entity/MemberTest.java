@@ -1,4 +1,4 @@
-package com.shop.Entity;
+package com.shop.entity;
 
 import com.shop.repository.MemberRepository;
 import org.junit.jupiter.api.DisplayName;
@@ -9,7 +9,6 @@ import org.springframework.security.test.context.support.WithMockUser;
 import org.springframework.test.context.TestPropertySource;
 import org.springframework.transaction.annotation.Transactional;
 
-import javax.lang.model.SourceVersion;
 import javax.persistence.EntityExistsException;
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;

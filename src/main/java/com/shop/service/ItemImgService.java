@@ -1,6 +1,6 @@
 package com.shop.service;
 
-import com.shop.Entity.ItemImg;
+import com.shop.entity.ItemImg;
 import com.shop.repository.ItemImgRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Value;
@@ -10,7 +10,6 @@ import org.springframework.web.multipart.MultipartFile;
 import org.thymeleaf.util.StringUtils;
 
 import javax.persistence.EntityNotFoundException;
-import java.io.IOException;
 
 @Service
 @RequiredArgsConstructor

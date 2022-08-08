@@ -1,6 +1,6 @@
 package com.shop.dto;
 
-import com.shop.Entity.OrderItem;
+import com.shop.entity.OrderItem;
 import lombok.Getter;
 import lombok.Setter;
 

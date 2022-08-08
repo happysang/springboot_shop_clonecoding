@@ -1,7 +1,7 @@
 package com.shop.service;
 
-import com.shop.Entity.Item;
-import com.shop.Entity.ItemImg;
+import com.shop.entity.Item;
+import com.shop.entity.ItemImg;
 import com.shop.dto.ItemFormDto;
 import com.shop.dto.ItemImgDto;
 import com.shop.dto.ItemSearchDto;

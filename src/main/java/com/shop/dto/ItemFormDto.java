@@ -1,6 +1,6 @@
 package com.shop.dto;
 
-import com.shop.Entity.Item;
+import com.shop.entity.Item;
 import com.shop.constant.ItemSellStatus;
 import lombok.Getter;
 import lombok.Setter;

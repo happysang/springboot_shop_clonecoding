@@ -3,8 +3,8 @@ package com.shop.repository;
 import com.querydsl.core.BooleanBuilder;
 import com.querydsl.jpa.impl.JPAQuery;
 import com.querydsl.jpa.impl.JPAQueryFactory;
-import com.shop.Entity.Item;
-import com.shop.Entity.QItem;
+import com.shop.entity.Item;
+import com.shop.entity.QItem;
 import com.shop.constant.ItemSellStatus;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
@@ -21,7 +21,7 @@ import javax.persistence.PersistenceContext;
 import java.time.LocalDateTime;
 import java.util.List;
 
-import static com.shop.Entity.QItem.item;
+import static com.shop.entity.QItem.item;
 
 @SpringBootTest
 @TestPropertySource(locations = "classpath:application-test.properties")

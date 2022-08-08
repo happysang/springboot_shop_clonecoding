@@ -1,4 +1,4 @@
-package com.shop.Entity;
+package com.shop.entity;
 
 import lombok.Getter;
 import org.springframework.data.annotation.CreatedBy;
